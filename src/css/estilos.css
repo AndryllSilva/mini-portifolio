@@ -1,0 +1,178 @@
+body{
+    background-image: url(../imagens/bbg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: 'VT323', monospace;
+    color: #f3f3f3;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.cartao{
+    background-color: black;
+    width: 370px;
+    border: 2px outset #9932CC;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 30px black ;
+}
+
+.abas img{
+    width: 30px;
+}
+
+.cartao .minhas-informacoes{
+   padding-top: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+}
+
+.cartao .minhas-informacoes img{
+    border-radius: 50px;
+    border: 3px solid #696969;
+}
+
+.cartao .minhas-informacoes .nome{
+    font-size: 26px;
+}
+
+.cartao .minhas-informacoes .cargo{
+    font-size: 20px;
+    color: #b8bbc5;
+}
+
+.cartao .conteudo{
+    margin-top: 15px;
+}
+
+.cartao .abas{
+    display: flex;
+}
+
+.cartao .abas .aba{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cartao .abas .aba.selecionado{
+    background-color: #262626;
+}
+
+.cartao .informacoes-abas{
+    background-color: #262626;
+}
+.cartao .abas .aba:hover{
+    background-color: #414141;
+}
+
+.informacoes-abas .informacao{
+    min-height: 260px;
+    padding: 15px;
+    display: none;
+}
+
+.informacoes-abas .informacao.selecionado{
+    display:block;
+}
+
+.informacoes-abas .sub-titulo{
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.informacoes-abas .descricao{
+    font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+.informacoes-abas .descricao span{
+    color: #02d08f;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.redes-sociais li a{
+    width: 250px;
+    display: block;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+.redes-sociais li a:hover{
+    opacity: 0.8;
+
+}
+
+.redes-sociais .linkedin{
+    background-color: #1d87bd;
+}
+
+.redes-sociais .linkedin a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.redes-sociais .meu-curriculo .curriculo{
+    color: black;
+    background-color: white;
+}
+
+.redes-sociais .meu-curriculo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.redes-sociais .github{
+    background-color: #9400D3;
+    display: inline;
+    height: 45px;
+}
+
+.redes-sociais .github a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding-right: 30px;
+    padding-top: 6px;
+}
+
+.redes-sociais .linkedin .imagemlinkedin{
+    width: 25px;
+}
+
+.redes-sociais .meu-curriculo .imagemcurriculo{
+    width: 25px;
+}
+
+.redes-sociais .github .imagemgit{
+    width: 50px;
+}
