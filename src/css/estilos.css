@@ -2,7 +2,6 @@ body{
     background-image: url(../imagens/bbg.gif);
     background-repeat: no-repeat;
     background-size: cover;
-
     font-family: 'VT323', monospace;
     color: #f3f3f3;
     font-size: 18px;
@@ -14,12 +13,12 @@ body{
 }
 
 .cartao{
-    background-color: black;
+    background-color: #141414;
     width: 370px;
     border: 2px outset #9932CC;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 30px black ;
+    box-shadow: 10px 10px 20px black ;
 }
 
 .abas img{
@@ -97,6 +96,7 @@ body{
     max-height: 180px;
     overflow-y: auto;
     padding-right: 15px;
+    
 }
 
 .informacoes-abas .descricao span{
@@ -151,7 +151,7 @@ body{
 }
 
 .redes-sociais .github{
-    background-color: #9400D3;
+    background-color: #363636;
     display: inline;
     height: 45px;
 }
@@ -160,7 +160,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4px;
+    gap: px;
     padding-right: 30px;
     padding-top: 6px;
 }
@@ -175,4 +175,8 @@ body{
 
 .redes-sociais .github .imagemgit{
     width: 50px;
+}
+
+#descricao-cima{
+    margin-bottom: 15px;
 }
